@@ -52,8 +52,7 @@
 				rows="10"
 				placeholder="Enter message..."
 				required
-			>
-			</textarea>
+			/>
 		</div>
 
 		<button type="submit" class="bg-blue white">Send Message</button>
@@ -74,9 +73,14 @@
 		font-weight: 600;
 	}
 
+	span {
+		color: var(--pink);
+	}
+
 	input,
 	textarea {
 		padding: 0.75rem;
+		font: inherit;
 	}
 
 	button:hover {
