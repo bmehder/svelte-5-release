@@ -21,7 +21,7 @@
 	}
 
 	img {
-		max-width: 3.5rem;
+		width: 3.5rem;
 		top: -1.5rem;
 	}
 </style>

@@ -1,5 +1,5 @@
 <script>
-	let { heading = 'Add Text Here!!!!!' } = $props()
+	let { heading } = $props()
 </script>
 
 <div class="bg-gradient-pink py-4 px-2 radius-4">
@@ -8,6 +8,6 @@
 
 <style>
 	h2 {
-		font-size: 1.75rem;
+		font-size: 2rem;
 	}
 </style>

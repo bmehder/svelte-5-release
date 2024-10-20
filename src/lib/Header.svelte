@@ -1,6 +1,6 @@
 <header>
 	<div class="outer">
-		<div class="inner flex flex-wrap space-between align-items-center gap-1-5 py-2">
+		<div class="inner spread-apart py-2">
 			<a href="/"><img src="/logo-dark.svg" alt="dark logo" /></a>
 			<nav>
 				<ul class="flex flex-wrap align-items-center gap-1-5 list-style-none">

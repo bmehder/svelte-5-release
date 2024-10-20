@@ -1,6 +1,6 @@
 <script>
-	import '$lib/style.css'
 	import 'cheekycss'
+	import '$lib/style.css'
 	import Footer from '$lib/Footer.svelte'
 	import Header from '$lib/Header.svelte'
 </script>
