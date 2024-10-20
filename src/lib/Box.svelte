@@ -8,31 +8,20 @@
 	} = $props()
 </script>
 
-<div class="bg-white flow">
-	<img {src} alt="" />
+<div class="relative p-2 radius-4 bg-white flow">
+	<img class="absolute" {src} alt="" />
 	<h3>{heading}</h3>
-	<p>
-		{description}
-	</p>
-	<a {href}>Read More &raquo;</a>
+	<p>{description}</p>
+	<a class="inline-block fw-600" {href}>{@html linkText}</a>
 </div>
 
 <style>
 	div {
-		position: relative;
-		padding: 2rem;
 		font-size: 1.125rem;
-		border-radius: 1rem;
 	}
 
 	img {
 		max-width: 3.5rem;
-		position: absolute;
 		top: -1.5rem;
-	}
-
-	a {
-		display: inline-block;
-		font-weight: 600;
 	}
 </style>

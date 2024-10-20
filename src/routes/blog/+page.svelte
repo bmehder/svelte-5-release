@@ -8,19 +8,13 @@
 
 <section>
 	<div class="outer">
-		<div class="inner auto-fit">
+		<div class="inner py-3 auto-fit gap-3">
 			{#each data.posts as post}
 				<div class="flow">
-					<h2><a href="/blog/{post.id}">{post.title}</a></h2>
+					<h2 class="capitalize"><a href="/blog/{post.id}">{post.title}</a></h2>
 					<p>{post.body}</p>
 				</div>
 			{/each}
 		</div>
 	</div>
 </section>
-
-<style>
-	h2 {
-		text-transform: capitalize;
-	}
-</style>

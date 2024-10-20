@@ -7,7 +7,7 @@
 
 <section>
 	<div class="outer">
-		<div class="inner flow">
+		<div class="inner py-3 flow">
 			<h2>Send us a message</h2>
 			<Form />
 		</div>

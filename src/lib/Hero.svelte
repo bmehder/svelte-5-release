@@ -1,7 +1,7 @@
 <section>
-	<div class="outer">
-		<div class="inner">
-			<div class="hero-content bg-gradient-blue white flow">
+	<div class="outer cover">
+		<div class="inner py-8">
+			<div class="hero-content p-3 bg-gradient-blue white flow radius-4">
 				<h1>Lorem ipsum dolor sit.</h1>
 				<p class="white">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cum
@@ -16,16 +16,9 @@
 <style>
 	.outer {
 		background-image: url(/flowers-forest.webp);
-		background-size: cover;
-	}
-
-	.inner {
-		padding-block: 8rem;
 	}
 
 	.hero-content {
 		max-width: 42ch;
-		padding: 3rem;
-		border-radius: 1rem;
 	}
 </style>

@@ -1,9 +1,9 @@
 <header>
 	<div class="outer">
-		<div class="inner spread-apart">
+		<div class="inner flex flex-wrap space-between align-items-center gap-1-5 py-2">
 			<a href="/"><img src="/logo-dark.svg" alt="dark logo" /></a>
 			<nav>
-				<ul class="spread-apart">
+				<ul class="flex flex-wrap align-items-center gap-1-5 list-style-none">
 					<li>
 						<a href="/">Home</a>
 					</li>
@@ -26,15 +26,6 @@
 </header>
 
 <style>
-	.inner {
-		padding-block: 1.5rem;
-	}
-
-	ul {
-		justify-content: start;
-		list-style: none;
-	}
-
 	.button:hover {
 		background-image: var(--gradient-pink);
 	}

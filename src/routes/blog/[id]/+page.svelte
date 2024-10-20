@@ -8,7 +8,7 @@
 
 <section>
 	<div class="outer">
-		<div class="inner flow">
+		<div class="inner py-3 flow">
 			<div class="post-body">{data.post.body}</div>
 		</div>
 	</div>

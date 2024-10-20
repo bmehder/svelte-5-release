@@ -8,7 +8,7 @@
 
 <section>
 	<div class="outer bg-gradient-gray">
-		<div class="inner auto-fit">
+		<div class="inner auto-fit gap-3 py-8">
 			<HeadingBox heading="Check out our most popular categories!" />
 			<Box heading="Animation" src="/icons/icon-animation.svg" />
 			<Box heading="Business" src="/icons/icon-business.svg" />
@@ -18,9 +18,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	.inner {
-		padding-block: 8rem;
-	}
-</style>

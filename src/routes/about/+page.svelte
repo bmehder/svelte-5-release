@@ -6,7 +6,7 @@
 
 <section>
 	<div class="outer">
-		<div class="inner flow">
+		<div class="inner py-3 flow">
 			<h2>Section Heading</h2>
 			<div class="columns flow">
 				<p>
@@ -37,7 +37,7 @@
 
 <section>
 	<div class="outer bg-blue white">
-		<div class="inner flow">
+		<div class="inner py-3 flow">
 			<h2>Section Heading</h2>
 			<div class="columns flow">
 				<p class="white">
@@ -68,7 +68,7 @@
 
 <section>
 	<div class="outer">
-		<div class="inner flow">
+		<div class="inner py-3 flow">
 			<h2>Section Heading</h2>
 			<div class="columns flow">
 				<p>

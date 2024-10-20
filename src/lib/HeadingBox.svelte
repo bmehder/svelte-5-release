@@ -2,15 +2,12 @@
 	let { heading = 'Add Text Here!!!!!' } = $props()
 </script>
 
-<div class="bg-gradient-pink">
+<div class="bg-gradient-pink py-4 px-2 radius-4">
 	<h2 class="white">{heading}</h2>
 </div>
 
 <style>
-	div {
-		padding-block: 4rem;
-		padding-inline: 2rem;
-		font-size: 1.25rem;
-		border-radius: 1rem;
+	h2 {
+		font-size: 1.75rem;
 	}
 </style>

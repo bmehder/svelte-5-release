@@ -1,6 +1,6 @@
-<form>
+<form class="max-width-sm">
 	<div class="flow">
-		<div class="form-group">
+		<div class="grid gap-0-2-5">
 			<label for="first">First Name <span>*</span></label>
 			<input
 				type="text"
@@ -11,7 +11,7 @@
 			/>
 		</div>
 
-		<div class="form-group">
+		<div class="grid gap-0-2-5">
 			<label for="last">Last Name <span>*</span></label>
 			<input
 				type="text"
@@ -22,7 +22,7 @@
 			/>
 		</div>
 
-		<div class="form-group">
+		<div class="grid gap-0-2-5">
 			<label for="email">Email <span>*</span></label>
 			<input
 				type="email"
@@ -33,7 +33,7 @@
 			/>
 		</div>
 
-		<div class="form-group">
+		<div class="grid gap-0-2-5">
 			<label for="tel">Phone (Optional)</label>
 			<input
 				type="tel"
@@ -44,7 +44,7 @@
 			/>
 		</div>
 
-		<div class="form-group">
+		<div class="grid gap-0-2-5">
 			<label for="message">Message <span>*</span></label>
 			<textarea
 				name="message"
@@ -52,7 +52,7 @@
 				rows="10"
 				placeholder="Enter message..."
 				required
-			/>
+			></textarea>
 		</div>
 
 		<button type="submit" class="bg-blue white">Send Message</button>
@@ -60,19 +60,6 @@
 </form>
 
 <style>
-	form {
-		max-width: 32rem;
-	}
-
-	.form-group {
-		display: grid;
-		gap: 0.25rem;
-	}
-
-	label {
-		font-weight: 600;
-	}
-
 	span {
 		color: var(--pink);
 	}
@@ -80,7 +67,7 @@
 	input,
 	textarea {
 		padding: 0.75rem;
-		font: inherit;
+		border: 1px solid var(--gray);
 	}
 
 	button:hover {
